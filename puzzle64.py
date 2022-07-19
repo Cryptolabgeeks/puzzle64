@@ -29,7 +29,7 @@ except ImportError:
     import requests
 
 def work():
-    low  = 0x8000000000000000
+    low  = 0xfeb851f97d661000
     high = 0xffffffffffffffff
     return str ( hex ( random.randrange( low, high ) ) )[2:]
     
